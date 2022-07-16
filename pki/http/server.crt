@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=AU, ST=Some-State, O=Internet Widgits Pty Ltd, CN=oreoreca
+        Validity
+            Not Before: Jul 16 09:36:10 2022 GMT
+            Not After : Oct 18 09:36:10 2024 GMT
+        Subject: C=AU, ST=Some-State, O=Internet Widgits Pty Ltd, CN=localhost
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b5:2b:69:19:38:0d:65:2a:4b:c7:4d:71:2c:e4:
+                    21:0d:80:0a:e4:92:c1:f4:d1:41:36:b4:46:ba:aa:
+                    91:b6:4c:ba:8d:e8:90:15:e4:52:7e:3b:c2:5c:af:
+                    2f:3f:62:36:16:a2:b6:4f:8d:2d:f1:d3:df:65:21:
+                    f1:2e:2c:3f:47:5a:66:80:8c:0d:31:3f:c2:50:ee:
+                    1d:86:6f:e0:44:3c:e7:8b:2d:96:46:62:36:e3:d4:
+                    2c:16:57:2c:ca:d3:4d:d4:88:d0:39:1b:f5:9f:7c:
+                    4c:0e:6b:39:4c:25:21:b7:17:0c:14:94:84:77:3d:
+                    c5:cd:74:5f:e9:8c:dd:6a:37:50:e3:79:c3:0d:c4:
+                    9e:f3:f8:a6:25:e7:60:41:6e:ca:af:c6:a0:75:e0:
+                    da:e3:2d:2e:0c:88:d9:8e:b8:b8:05:af:d7:41:2c:
+                    30:af:9a:b8:0b:2d:f9:24:e3:8b:04:bf:e7:dd:f6:
+                    98:d1:07:1d:4e:5b:e7:fc:12:df:8f:cc:c3:59:1b:
+                    ed:72:96:41:be:24:00:d6:fb:0a:62:0d:0c:19:17:
+                    14:d3:be:64:12:3c:84:f8:49:15:e5:ce:01:cf:af:
+                    2c:af:da:b9:7f:9f:3c:dc:b6:5b:e2:f1:f0:11:ec:
+                    24:cc:0a:e8:c8:da:cc:82:31:ae:10:4b:fc:ab:91:
+                    9d:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:www.test.com, IP Address:127.0.0.1
+    Signature Algorithm: sha256WithRSAEncryption
+         0c:43:47:33:d0:c7:75:1f:79:f7:74:16:32:55:96:ce:e4:ec:
+         cf:a5:21:b5:07:68:66:52:1b:ae:17:5c:9a:83:11:ed:ab:ec:
+         1c:3e:8b:b7:97:06:33:7d:26:e6:66:d8:20:9a:00:6a:b0:66:
+         9f:11:45:72:a8:70:81:ea:91:f5:ce:1f:d8:37:1f:3f:3d:4e:
+         92:3f:f7:48:4d:c9:41:6b:71:64:3e:53:80:91:bc:9f:8a:31:
+         26:f9:29:48:a6:8b:88:9a:35:b1:9d:de:94:f0:35:fd:2e:9a:
+         98:8c:a6:7e:0d:c8:75:33:37:ae:5b:10:5f:52:1c:73:fb:9a:
+         96:89:7f:fe:8a:fc:9b:83:67:6a:3d:8a:f7:82:c3:32:67:6c:
+         78:2b:84:88:4b:1a:55:df:88:b2:11:65:f6:32:56:c4:1e:bb:
+         4c:e6:9b:33:90:ab:e8:a1:55:45:23:a3:1f:80:fe:e4:c1:2a:
+         36:1d:80:64:67:4e:10:ed:55:f8:4d:38:c7:cc:76:55:b3:fb:
+         b7:85:d9:8a:5c:e9:75:ca:34:50:41:c1:5c:22:34:6c:76:7d:
+         da:b5:1b:9d:b3:48:a4:8e:ed:c4:ea:76:92:89:a8:22:90:6f:
+         fe:b2:c1:3a:22:e0:c6:2d:7f:c3:65:f4:d1:69:0b:be:87:69:
+         b6:70:3f:0d
+-----BEGIN CERTIFICATE-----
+MIIDTTCCAjWgAwIBAgIBATANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQGEwJBVTET
+MBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQ
+dHkgTHRkMREwDwYDVQQDDAhvcmVvcmVjYTAeFw0yMjA3MTYwOTM2MTBaFw0yNDEw
+MTgwOTM2MTBaMFkxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEw
+HwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQxEjAQBgNVBAMMCWxvY2Fs
+aG9zdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALUraRk4DWUqS8dN
+cSzkIQ2ACuSSwfTRQTa0RrqqkbZMuo3okBXkUn47wlyvLz9iNhaitk+NLfHT32Uh
+8S4sP0daZoCMDTE/wlDuHYZv4EQ854stlkZiNuPULBZXLMrTTdSI0Dkb9Z98TA5r
+OUwlIbcXDBSUhHc9xc10X+mM3Wo3UON5ww3EnvP4piXnYEFuyq/GoHXg2uMtLgyI
+2Y64uAWv10EsMK+auAst+STjiwS/5932mNEHHU5b5/wS34/Mw1kb7XKWQb4kANb7
+CmINDBkXFNO+ZBI8hPhJFeXOAc+vLK/auX+fPNy2W+Lx8BHsJMwK6MjazIIxrhBL
+/KuRnbcCAwEAAaMhMB8wHQYDVR0RBBYwFIIMd3d3LnRlc3QuY29thwR/AAABMA0G
+CSqGSIb3DQEBCwUAA4IBAQAMQ0cz0Md1H3n3dBYyVZbO5OzPpSG1B2hmUhuuF1ya
+gxHtq+wcPou3lwYzfSbmZtggmgBqsGafEUVyqHCB6pH1zh/YNx8/PU6SP/dITclB
+a3FkPlOAkbyfijEm+SlIpouImjWxnd6U8DX9LpqYjKZ+Dch1MzeuWxBfUhxz+5qW
+iX/+ivybg2dqPYr3gsMyZ2x4K4SISxpV34iyEWX2MlbEHrtM5pszkKvooVVFI6Mf
+gP7kwSo2HYBkZ04Q7VX4TTjHzHZVs/u3hdmKXOl1yjRQQcFcIjRsdn3atRuds0ik
+ju3E6naSiagikG/+ssE6IuDGLX/DZfTRaQu+h2m2cD8N
+-----END CERTIFICATE-----

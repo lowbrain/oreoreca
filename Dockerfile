@@ -8,5 +8,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 # RUN apk update \
 #     && apk add --no-cache <your-package-list-here>
 
-RUN apk add --update openssl \
+RUN apk add --update nginx \
+    && apk add --update openssl \
     && rm -rf /var/cache/apk/*

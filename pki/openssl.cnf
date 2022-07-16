@@ -163,6 +163,7 @@ challengePassword_max		= 20
 unstructuredName		= An optional company name
 
 [ usr_cert ]
+subjectAltName = @alt_names
 
 # These extensions are added when 'ca' signs a request.
 
